@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tinos;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    box-sizing: inherit;
+    background: #000;
+    color: #fff;
+}
+
+.hero-home {
+    width: 100%;
+    height: 90vh;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.32);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: grayscale(0%);
+    }
+
+    &:hover .home-title {
+        transform: scale(1.1);
+    }
+}
+
+.main-content {
+    width: 80%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-content {
+    padding-top: 300px;
+    padding-bottom: 20px;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.button-default {
+    color: #fff;
+    font-family: Poppins;
+    padding: 12px 60px 12px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    background-image: url(/images/arrow_button@2x.png);
+                background-repeat: no-repeat;
+                background-size: 26px;
+                background-position: 95% 55%;
+    font-weight: 400;
+    transition: 0.5s;
+
+    &:hover {
+        background-position: 90% 55%;
+    }
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Poppins;
+}
+
+.form {
+    margin: 0 0 15px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-family: Tinos, sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 400;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Tinos, sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.w-input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+a {
+    color: #fff;
+}
+
+.appointment-box {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 60px;
+    background-color: #000;
+    text-align: center;
+
+    .form {
+        .appointment-form {
+            display: grid;
+            grid-auto-columns: 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            margin-bottom: 1rem;
+
+            .input-field {
+                height: 56px;
+                margin-bottom: 0px;
+                border: 1px solid #fff;
+                background-color: transparent;
+                color: #eee;
+                outline: none;
+
+                padding: 8px 12px;
+                font-size: 14px;
+                font-family: Poppins;
+
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+
+        .appointment-form-2 {
+            margin-bottom: 2rem;
+
+            .area-field {
+                min-height: 100px;
+                background: transparent;
+                border: 1px solid #fff;
+                resize: none;
+                outline: none;
+                color: #fff;
+                font-size: 14px;
+                font-family: Poppins;
+                padding: 8px 12px;
+
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+span {
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.w-slide {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+    text-align: left;
+}
+
+.w-slider-mask {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    white-space: nowrap;
+}
+
+.w-slider {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    background: #dddddd;
+    clear: both;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.slider-arrow-left, .slider-arrow-right {
+    position: absolute;
+    width: 80px;
+    top: 0;
+    right: 15%;
+    bottom: 0;
+    left: 15%;
+    margin: auto;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    font-size: 40px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    user-select: none;
+}

@@ -1,0 +1,199 @@
+.hero-academy {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/academy_banner_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    position: relative;
+}
+
+.academy-service {
+   .service-content {
+       .service-wrapper {
+           margin: 0;
+       }
+   }
+}
+
+.academy-course {
+    background-image: url(/images/courses_workshops.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+
+    .heading-center {
+        text-align: center;
+    }
+
+    .course-wrapper {
+        display: grid;
+        justify-content: space-between;
+        align-items: flex-start;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+
+        .course-box {
+            padding: 60px 60px 20px;
+            background: #000;
+
+            h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 300;
+            }
+
+            .box-wrapper {
+
+                .course-inner {
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    padding: 40px;
+                    border: 1px solid #fff;
+
+                   h2 {
+                       line-height: 1;
+                   }
+                }
+            }
+        }
+    }
+}
+
+.becoming {
+    
+    .becoming-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .becoming-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .becoming-left {
+                width: 35%;
+            }
+
+            .becoming-right {
+                width: 60%;
+                display: grid;
+                grid-auto-columns: 1fr;
+                grid-column-gap: 20px;
+                grid-row-gap: 20px;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: auto;
+
+                .becoming-box {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 40px 20px;
+                    border: 1px solid #fff;
+
+                    p {
+                        font-size: 18px;
+                        font-weight: 300;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.learning {
+    background: #000;
+    background-image: url(/images/learning_bg.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonials {
+    background: #000;
+    background-image: url(/images/testimonial_bg.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .testimonials-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .testimonials-slider {
+            display: block;
+            height: 100%;
+            background-color: transparent;
+            overflow: hidden;
+
+            .slider-mask {
+                width: 60%;
+                height: 100%;
+                margin-right: auto;
+                margin-left: auto;
+
+                .slide-item {
+                    padding: 40px 80px;
+                    background: #000;
+                    background-image: url(/images/quote_img.png), url(/images/quote_img.png);
+                    background-position: 75% 40%, 25% 20%;
+                    background-size: auto, auto;
+                    background-repeat: no-repeat, no-repeat;
+
+                    .slider-content {
+
+                        .testimonials-img {
+                            display: block;
+                            margin-right: auto;
+                            margin-left: auto;
+                            margin-bottom: 30px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                        }
+
+                        .testimonials-name {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials-nav-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 34px;
+    }
+
+    .testimonials-nav-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 34px;
+    }
+
+    .slider-arrow-left {
+        z-index: 3;
+        right: auto;
+    }
+
+    .slider-arrow-right {
+        z-index: 4;
+        left: auto;
+    }
+}

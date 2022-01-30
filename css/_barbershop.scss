@@ -1,0 +1,468 @@
+.menu {
+    display: none;
+}
+
+.hero-barbershop {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/barber_banner_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    position: relative;
+
+    .barber-logo-link {
+        position: absolute;
+        left: 0;
+        top: 100px;
+        right: auto;
+        bottom: 0;
+        width: 120px;
+        height: auto;
+        border-right: 1px solid hsla(0, 0%, 100%, 0.32);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        .barber-phone {
+            display: none;
+        }
+
+        .hamburger-menu {
+            display: none;
+        }
+
+        .barber-logo-box {
+            width: 90%;
+        }
+    }
+
+    .barbershop-navbar {
+        position: absolute;
+        padding-left: 119px;
+        width: 100%;
+        height: 100px;
+        border-bottom: 1px solid hsla(0, 0%, 100%, 0.32);
+        display: flex;
+        justify-content: space-between;
+
+        .barber-phone-navigation {
+            display: flex;
+            width: 20%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            line-height: 26px;
+            border-left: 1px solid hsla(0, 0%, 100%, 0.32);
+            border-right: 1px solid hsla(0, 0%, 100%, 0.32);
+            font-family: Poppins;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .menu-wrapper {
+            width: 100%;
+            max-width: 60%;
+            display: flex;
+            justify-content: space-between;
+
+            .menu-link {
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-left: 1px solid hsla(0, 0%, 100%, 0.32);
+                text-transform: uppercase;
+                color: #fff;
+                font-family: Poppins;
+
+                &::after {
+                    content: '';
+                    position: relative;
+                    top: 8px;
+                    width: 10%;
+                    left: -10%;
+                    height: 1px;
+                    display: block;
+                    background: #fff;
+                    opacity: 0;
+                }
+
+                &:hover::after {
+                    opacity: 1;
+                }
+            }
+            
+            .menu-block {
+                display: flex;
+                gap: 1rem;
+                width: 20%;
+                align-items: center;
+                justify-content: center;
+                border-left: 1px solid hsla(0, 0%, 100%, 0.32);
+
+                .barber-socila-link {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .barbershop-banner {
+        .center-block {
+            h1 {
+                margin-top: 0;
+                margin-bottom: 40px;
+                font-size: 120px;
+                font-weight: 400;
+                line-height: 100px;
+                color: #fff;
+            }
+
+            h4 {
+                margin-top: 0;
+                margin-bottom: 70px;
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 42px;
+                color: #fff;
+            }
+
+            .scroll-more {
+                margin-top: 100px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+.service {
+    background: #000;
+
+    .service-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .service-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 90px;
+
+            .service-img {
+                width: 45%;
+            }
+
+            .service-text {
+                width: 45%;
+
+                .heading-service {
+                    font-size: 56px;
+                    font-weight: 400;
+                    color: #fff;
+                    margin-bottom: -100px;
+                }
+
+                .service-content {
+                    padding-left: 100px;
+                    font-size: 18px;
+                    margin: 0;
+                    font-family: Poppins;
+                    margin-bottom: -90px;
+
+                    &::before {
+                        content: "";
+                        position: relative;
+                        display: block;
+                        top: 15px;
+                        left: -90px;
+                        width: 70px;
+                        height: 1px;
+                        background: crimson;
+                    }
+                }
+            }
+        }
+
+        .sides-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .side-left {
+                width: 35%;
+
+                .our-heading {
+                    font-size: 56px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    margin-bottom: 4rem;
+                }
+            }
+
+            .side-right-service {
+                width: 60%;
+
+                .service-boxes {
+                    display: grid;
+                    grid-auto-columns: 1fr;
+                    grid-column-gap: 20px;
+                    grid-row-gap: 20px;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto;
+
+                    .service-box-wrapper {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 40px 20px;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid #fff;
+                        text-align: center;
+
+                        .service-heading {
+                            margin-top: 25px;
+                            margin-bottom: 10px;
+                            font-weight: 400;
+                            font-size: 26px;
+                        }
+
+                        .service-price {
+                            font-size: 18px;
+                            font-family: Poppins;
+                            color: #e0872a;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.appointments {
+    background: #000;
+    background-image: url(/images/appointment_bg.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+
+    .appointment-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .appointment-box {
+            max-width: 960px;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 60px;
+            background-color: #000;
+            text-align: center;
+
+            .form {
+                .appointment-form {
+                    display: grid;
+                    grid-auto-columns: 1fr;
+                    grid-column-gap: 20px;
+                    grid-row-gap: 20px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: auto;
+                    margin-bottom: 1rem;
+
+                    .input-field {
+                        height: 56px;
+                        margin-bottom: 0px;
+                        border: 1px solid #fff;
+                        background-color: transparent;
+                        color: #eee;
+                        outline: none;
+
+                        padding: 8px 12px;
+                        font-size: 14px;
+                        font-family: Poppins;
+
+                        &::placeholder {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .appointment-form-2 {
+                    margin-bottom: 2rem;
+
+                    .area-field {
+                        min-height: 100px;
+                        background: transparent;
+                        border: 1px solid #fff;
+                        resize: none;
+                        outline: none;
+                        color: #fff;
+                        font-size: 14px;
+                        font-family: Poppins;
+                        padding: 8px 12px;
+
+                        &::placeholder {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.our-barbers {
+    background: #000;
+
+    .our-barbers-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .our-barbers-wrapper {
+            display: grid;
+            justify-content: space-between;
+            grid-auto-columns: 1fr;
+            grid-column-gap: 60px;
+            grid-row-gap: 60px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+
+            .our-barbers-box {
+                display: flex;
+                align-items: flex-start;
+
+                .our-barbers-info {
+                    width: 30%;
+                    margin-top: 10%;
+                    margin-left: -5%;
+
+                    .barber-name {
+                        font-size: 26px;
+                        font-weight: 400;
+                        display: inline-block;
+                        margin-bottom: 15px;
+                        padding-right: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 5px;
+                        border-bottom: 4px solid #e0872a;
+                    }
+
+                    .barber-tag {
+                        font-size: 14px;
+                        font-family: Poppins;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                    }
+
+                    .small-text {
+                        font-size: 14px;
+                        font-family: Poppins;
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hours-location {
+    background: #000;
+    background-image: url(/images/hours_location.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+
+    .hours-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .hours-wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .hours-box {
+                display: flex;
+                width: 45%;
+                flex-direction: column;
+                padding: 40px 20px;
+                justify-content: flex-start;
+                align-items: center;
+                text-align: center;
+                background: #000;
+
+                img {
+                    width: 100px;
+                }
+
+                .hours-heading {
+                    font-size: 36px;
+                    font-weight: 400;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+
+                .hours-inner {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.regulations {
+    background: #000;
+
+    .regulation-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .regulations-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .regulations-left {
+                width: 30%;
+            }
+
+            .regulations-image {
+                width: 60%;
+            }
+        }
+    }
+}
+
+.contact {
+    background: #000;
+    background-image: url(/images/contact_bg.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .contact-content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .appointment-box {
+            .form {
+                .flex-contact {
+                    display: flex;
+                    width: 100%;
+
+                    .input-field {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

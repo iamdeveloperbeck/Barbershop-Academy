@@ -1,0 +1,933 @@
+@media (max-width: 1600px) {
+    .hero {
+        .navigation-bottom {
+            height: 81px;
+        }
+    }
+
+    .hero-barbershop {
+        .barbershop-banner {
+           .banner-content {
+                padding-top: 200px;
+                padding-bottom: 20px;
+
+                .center-block {
+                    h1 {
+                        font-size: 60px;
+                    }
+                }
+           }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+
+        .logo-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+
+            .logo-box {
+
+                .logo {
+                    width: 60px;
+                }
+            }
+        }
+
+        .home-banner {
+            margin: 0;
+            padding-top: 100px;
+
+            .home-title {
+                font-size: 70px;
+            }
+        }
+
+        .navigation-bottom {
+            margin: 0;
+            padding-top: 40px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .phone-navigation {
+                border: none;
+            }
+
+            .menu-block {
+                border: none;
+            }
+        }
+    }
+
+    .footer {
+
+        .footer-content {
+            padding-top: 70px;
+            padding-bottom: 70px;
+
+            .footer-img {
+                width: 60px;
+            }
+
+            .footer-title {
+                font-size: 16px;
+                padding-top: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        .home-banner {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navigation-bottom {
+
+            .phone-navigation {
+                width: 100%;
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .hero-barbershop {
+        .barber-logo-link {
+            position: static;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-right-style: none;
+
+            .barber-logo-box {
+                width: 60px;
+                z-index: 1;
+            }
+        }
+
+        .barbershop-navbar {
+            height: auto;
+            padding-left: 0;
+            flex-direction: column;
+            align-items: stretch;
+            padding-top: 6rem;
+
+            .barber-phone-navigation {
+                width: 100%;
+                height: 60px;
+                border-right-style: none;
+                border-left-style: none;
+            }
+
+            .menu-wrapper {
+                height: 70px;
+                max-width: 100%;
+                border-top: 1px solid hsla(0, 0%, 100%, 0.32);
+            }
+        }
+    }
+
+    .service {
+        .service-content {
+            .service-wrapper {
+                flex-direction: column;
+
+                .service-img {
+                    width: 100%;
+                }
+
+                .service-text {
+                    width: 100%;
+
+                    .heading-service {
+                        font-size: 30px;
+                        line-height: 1;
+                        margin-top: 1rem;
+                    }
+
+                    .service-content {
+                        font-size: 14px;
+                        padding-left: 0;
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .sides-wrapper {
+                flex-direction: column;
+
+                .side-left {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                    text-align: center;
+
+                    .our-heading {
+                        font-size: 35px;
+                    }
+                }
+
+                .side-right-service {
+                    width: 100%;
+                    
+                    .service-boxes {
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                }
+            }
+        }
+    }
+
+    .appointments {
+        .appointment-content {
+            padding-top: 90px;
+            padding-bottom: 90px;
+
+            .appointment-box {
+                padding: 20px;
+                max-width: 1200px;
+
+                .heading-top {
+                    font-size: 30px;
+                }
+
+                .form {
+                    .appointment-form {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+
+                    .button-default {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .our-barbers {
+
+        .our-barbers-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .our-heading {
+                font-size: 35px;
+                text-align: center;
+            }
+
+            .our-barbers-wrapper {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .hours-location {
+        background-position: center;
+
+        .hours-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .hours-wrapper {
+                flex-direction: column;
+
+                .hours-box {
+                    width: 100%;
+
+                    img {
+                        width: 80px;
+                    }
+
+                    .hours-heading {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    .regulations {
+        .regulation-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .regulations-wrapper {
+                flex-direction: column;
+                text-align: center;
+
+                .regulations-left {
+                    width: 100%;
+                    margin-bottom: 2rem;
+
+                    .our-heading {
+                        font-size: 35px;
+                    }
+                }
+
+                .regulations-image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        background-position: center;
+
+        .contact-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .appointment-box {
+                padding: 20px;
+
+                .heading-top {
+                    font-size: 35px;
+                    line-height: 1;
+                }
+
+                .form {
+                    .button-default {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+
+                    .flex-contact {
+                        flex-direction: column;
+                        width: 100%;
+    
+                        .input-field {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .academy-course {
+
+        .course-wrapper {
+            grid-template-columns: repeat(1, 1fr);
+
+            h2 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .course-inner {
+                padding: 0;
+
+                h2 {
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .becoming {
+
+        .becoming-wrapper {
+            flex-direction: column;
+            
+            .becoming-left {
+                width: 100%;
+            }
+
+            .becoming-right {
+                width: 100%;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .hero-barbershop {
+        .barber-logo-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .barber-phone {
+                display: block;
+                font-family: Poppins;
+                color: #fff;
+                z-index: 1;
+                text-transform: uppercase;
+            }
+
+            .hamburger-menu {
+                display: block;
+                cursor: pointer;
+                z-index: 1;
+            }
+        }
+
+        .barbershop-navbar {
+            display: none;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-bottom-style: none;
+        }
+
+        .barbershop-banner {
+            padding-top: 0;
+
+            .banner-content {
+                h1 {
+                    font-size: 30px;
+                }
+            }
+
+           .scroll-more {
+               display: none;
+           }
+        }
+    }
+
+    .menu {
+        position: absolute;
+        right: -110%;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        position: absolute;
+        z-index: 2;
+        display: block;
+        opacity: 0;
+        transition-delay: 200ms;
+
+        &.active {
+            right: 0;
+            opacity: 1;
+        }
+
+        .flex-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 15px;
+
+            .mobile-logo {
+                width: 60px;
+            }
+
+            .close-menu {
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        .menu-inner {
+            padding-top: 200px;
+            text-align: center;
+
+            ul {
+                li {
+                    margin-bottom: 25px;
+
+                    a {
+                        font-size: 50px;
+                        font-family: Poppins;
+                        color: #fff;
+                        border-bottom: 3px solid #fff;
+                        line-height: 60px;
+                        letter-spacing: 2px;
+                        text-transform: capitalize;
+                        transition: 0.3s;
+
+                        &:hover {
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .service {
+        .service-content {
+            .service-wrapper {
+                flex-direction: column;
+
+                .service-img {
+                    width: 100%;
+                }
+
+                .service-text {
+                    width: 100%;
+
+                    .heading-service {
+                        font-size: 30px;
+                        line-height: 1;
+                        margin-top: 1rem;
+                    }
+
+                    .service-content {
+                        font-size: 14px;
+                        padding-left: 0;
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .sides-wrapper {
+                flex-direction: column;
+
+                .side-left {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                    text-align: center;
+
+                    .our-heading {
+                        font-size: 35px;
+                    }
+                }
+
+                .side-right-service {
+                    width: 100%;
+                    
+                    .service-boxes {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+
+    .appointments {
+        .appointment-content {
+            padding-top: 90px;
+            padding-bottom: 90px;
+
+            .appointment-box {
+                padding: 20px;
+                max-width: 1200px;
+
+                .heading-top {
+                    font-size: 30px;
+                }
+
+                .form {
+                    .appointment-form {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+
+                    .button-default {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .our-barbers {
+
+        .our-barbers-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .our-heading {
+                font-size: 35px;
+                text-align: center;
+            }
+
+            .our-barbers-wrapper {
+                grid-template-columns: repeat(1, 1fr);
+
+                .our-barbers-box {
+                    flex-direction: column;
+                    text-align: center;
+
+                    .our-barbers-info {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .hours-location {
+        background-position: center;
+
+        .hours-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .hours-wrapper {
+                flex-direction: column;
+
+                .hours-box {
+                    width: 100%;
+
+                    img {
+                        width: 80px;
+                    }
+
+                    .hours-heading {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    .regulations {
+        .regulation-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .regulations-wrapper {
+                flex-direction: column;
+                text-align: center;
+
+                .regulations-left {
+                    width: 100%;
+                    margin-bottom: 2rem;
+
+                    .our-heading {
+                        font-size: 35px;
+                    }
+                }
+
+                .regulations-image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        background-position: center;
+
+        .contact-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .appointment-box {
+                padding: 20px;
+
+                .heading-top {
+                    font-size: 35px;
+                    line-height: 1;
+                }
+
+                .form {
+                    .button-default {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+
+                    .flex-contact {
+                        flex-direction: column;
+                        width: 100%;
+    
+                        .input-field {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
+
+@media (max-width: 450px) {
+    .hero {
+        .home-banner {
+            .home-title {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .menu {
+        position: absolute;
+        right: -110%;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        position: absolute;
+        z-index: 2;
+        display: block;
+        opacity: 0;
+
+        &.active {
+            right: 0;
+            opacity: 1;
+        }
+
+        .flex-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 15px;
+
+            .mobile-logo {
+                width: 60px;
+            }
+
+            .close-menu {
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        .menu-inner {
+            padding-top: 200px;
+            text-align: center;
+
+            ul {
+                li {
+                    margin-bottom: 25px;
+
+                    a {
+                        font-size: 40px;
+                        font-family: Poppins;
+                        color: #fff;
+                        border-bottom: 3px solid #fff;
+                        line-height: 60px;
+                        letter-spacing: 2px;
+                        text-transform: capitalize;
+                        transition: 0.3s;
+
+                        &:hover {
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .service {
+        .service-content {
+            .service-wrapper {
+                flex-direction: column;
+
+                .service-img {
+                    width: 100%;
+                }
+
+                .service-text {
+                    width: 100%;
+
+                    .heading-service {
+                        font-size: 30px;
+                        line-height: 1;
+                        margin-top: 1rem;
+                    }
+
+                    .service-content {
+                        font-size: 14px;
+                        padding-left: 0;
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .sides-wrapper {
+                flex-direction: column;
+
+                .side-left {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                    text-align: center;
+
+                    .our-heading {
+                        font-size: 35px;
+                    }
+                }
+
+                .side-right-service {
+                    width: 100%;
+                    
+                    .service-boxes {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                }
+            }
+        }
+    }
+
+    .appointments {
+        .appointment-content {
+            padding-top: 90px;
+            padding-bottom: 90px;
+
+            .appointment-box {
+                padding: 20px;
+                max-width: 1200px;
+
+                .heading-top {
+                    font-size: 30px;
+                }
+
+                .form {
+                    .appointment-form {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+
+                    .button-default {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .our-barbers {
+
+        .our-barbers-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .our-heading {
+                font-size: 35px;
+                text-align: center;
+            }
+
+            .our-barbers-wrapper {
+                grid-template-columns: repeat(1, 1fr);
+
+                .our-barbers-box {
+                    flex-direction: column;
+                    text-align: center;
+
+                    .our-barbers-info {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .hours-location {
+        background-position: center;
+
+        .hours-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .hours-wrapper {
+                flex-direction: column;
+
+                .hours-box {
+                    width: 100%;
+
+                    img {
+                        width: 80px;
+                    }
+
+                    .hours-heading {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+
+    .regulations {
+        .regulation-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .regulations-wrapper {
+                flex-direction: column;
+                text-align: center;
+
+                .regulations-left {
+                    width: 100%;
+                    margin-bottom: 2rem;
+
+                    .our-heading {
+                        font-size: 35px;
+                    }
+                }
+
+                .regulations-image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        background-position: center;
+
+        .contact-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .appointment-box {
+                padding: 20px;
+
+                .heading-top {
+                    font-size: 35px;
+                    line-height: 1;
+                }
+
+                .form {
+                    .button-default {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+
+                    .flex-contact {
+                        flex-direction: column;
+                        width: 100%;
+    
+                        .input-field {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.hero {
+    position: relative;
+    background-color: #000;
+
+    .logo-link {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        right: auto;
+        display: flex;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        background: #000;
+        padding: 0 15px;
+        border-right: 1px solid hsla(0, 0%, 100%, 0.32);
+
+        .logo-box {
+
+            .logo {
+                width: 80px;
+            }
+        }
+    }
+
+    .home-banner {
+        margin-left: 120px;
+        display: flex;
+        justify-content: space-between;
+        height: 88%;
+
+        .home-barbershop-link {
+            flex: 1;
+            background-image: url(../images/barbershop_img.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .home-title {
+            font-size: 100px;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .home-academy-link {
+            flex: 1;
+            background-image: url(../images/home_img2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .navigation-bottom {
+        margin-left: 120px;
+        display: flex;
+        justify-content: space-between;
+        height: 104px;
+
+        .phone-navigation {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid hsla(0, 0%, 100%, 0.32);
+            
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                color: #afafaf;
+                font-family: Poppins;
+            }
+        }
+
+        .menu-block {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-left: 1px solid hsla(0, 0%, 100%, 0.32);
+            gap: 1rem;
+
+            .socila-link {
+                color: #afafaf;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+
+    .footer-content {
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        .footer-img {
+            width: 80px;
+        }
+
+        .footer-title {
+            padding-top: 2.1rem;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 18px;
+        }
+    }
+}
